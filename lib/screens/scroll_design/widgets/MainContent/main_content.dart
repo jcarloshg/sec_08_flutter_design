@@ -20,14 +20,14 @@ class MainContent extends StatelessWidget {
         children: [
           const SizedBox(height: 30),
           const Text(
-            '11 grados',
+            '11 grados ',
             style: textStyle,
           ),
           const Text(
             'Viernes',
             style: textStyle,
           ),
-          Expanded(child: Container(color: Colors.grey)),
+          Expanded(child: Container()),
           Container(
             padding: const EdgeInsets.all(15),
             child: const Icon(
