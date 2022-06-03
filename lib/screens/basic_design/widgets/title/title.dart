@@ -17,12 +17,13 @@ class TitlePlace extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
               Text(
-                'San Pablo Xochimehuacan',
-                style: TextStyle(fontWeight: FontWeight.bold),
+                'Zócalo de Puebla',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
+              SizedBox(height: 5),
               Text(
                 'C. Miguel Hidalgo',
-                style: TextStyle(color: Colors.black45),
+                // style: TextStyle(color: Colors.black45),
               ),
             ],
           ),
