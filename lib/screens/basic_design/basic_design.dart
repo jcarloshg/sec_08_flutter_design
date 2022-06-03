@@ -18,7 +18,11 @@ class BasicDesignScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            const Image(image: AssetImage('assets/images/landscape.jpg')),
+            const Image(
+              image: AssetImage(
+                'assets/images/zocalo-de-Puebla.jpg',
+              ),
+            ),
             const TitlePlace(),
             ButtonsAcctions(
               size: size,

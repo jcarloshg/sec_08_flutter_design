@@ -22,7 +22,7 @@ class TitlePlace extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                'C. Miguel Hidalgo',
+                'Av. Don Juan de Palafox y Mendoza',
                 // style: TextStyle(color: Colors.black45),
               ),
             ],
